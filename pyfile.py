@@ -10,6 +10,9 @@ for codes in arrOfCodes:
         if keyboard.is_pressed('backspace'):
             pyperclip.copy(codes)
             pyautogui.hotkey("ctrl", "v")
+            pyautogui.press("enter")
+            pyautogui.press("enter", interval=5)
             break
 
 print('completed.')
+
