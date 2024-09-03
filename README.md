@@ -8,7 +8,7 @@ made to paste different codes of brawlhalla
 
 ```bash
     > git clone https://github.com/munannoo/code-claimer.git
-    # now be in the gama folder & make a venv
+    # now be in the code-claimer folder
     > cd code-claimer
     # install all the dependencies
     > pip install -r requirements.txt
