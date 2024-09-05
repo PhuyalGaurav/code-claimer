@@ -1,5 +1,8 @@
 import keyboard
+
+import pyperclip
 import time
+
 
 
 def load_codes_from_file(file_path):
@@ -9,6 +12,7 @@ def load_codes_from_file(file_path):
     except FileNotFoundError:
         print(f"Error: '{file_path}' file not found.")
         return []
+
 
 
 codes = load_codes_from_file('codes.txt')
